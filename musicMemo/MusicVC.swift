@@ -9,6 +9,7 @@ import UIKit
 
 class MusicVC: UITableViewController {
     var albums: [Music] = []
+    var selectIndex: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +24,19 @@ class MusicVC: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MusicCell", for: indexPath) as! MusicMemoCell
         cell.album = albums[indexPath.row]
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.selectIndex = indexPath.row
+        print(self.selectIndex)
+        self.performSegue(withIdentifier: "jumpDetail", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "jumpDetail" {
+            let detailVC:MusicMemoDetail = segue.destination as! MusicMemoDetail
+            detailVC.album = self.albums[selectIndex]
+        }
     }
 }
 

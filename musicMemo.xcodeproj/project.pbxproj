@@ -20,6 +20,8 @@
 		86D43AD52851AD4900FB5BD0 /* MusicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D43AD42851AD4900FB5BD0 /* MusicVC.swift */; };
 		86D43AD72851AD6D00FB5BD0 /* MusicMemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D43AD62851AD6D00FB5BD0 /* MusicMemoCell.swift */; };
 		86D43AD92851AD8E00FB5BD0 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D43AD82851AD8E00FB5BD0 /* Music.swift */; };
+		86D43ADB2852ECEC00FB5BD0 /* musicMemoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D43ADA2852ECEC00FB5BD0 /* musicMemoDetail.swift */; };
+		86D43ADD28532BE800FB5BD0 /* ReasonCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D43ADC28532BE800FB5BD0 /* ReasonCommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		86D43AD42851AD4900FB5BD0 /* MusicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVC.swift; sourceTree = "<group>"; };
 		86D43AD62851AD6D00FB5BD0 /* MusicMemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicMemoCell.swift; sourceTree = "<group>"; };
 		86D43AD82851AD8E00FB5BD0 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		86D43ADA2852ECEC00FB5BD0 /* musicMemoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicMemoDetail.swift; sourceTree = "<group>"; };
+		86D43ADC28532BE800FB5BD0 /* ReasonCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasonCommentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 				86D43AB228519EDB00FB5BD0 /* Info.plist */,
 				86D43AAA28519EDA00FB5BD0 /* musicMemo.xcdatamodeld */,
 				86D43AD42851AD4900FB5BD0 /* MusicVC.swift */,
+				86D43ADA2852ECEC00FB5BD0 /* musicMemoDetail.swift */,
+				86D43ADC28532BE800FB5BD0 /* ReasonCommentCell.swift */,
 				86D43AD62851AD6D00FB5BD0 /* MusicMemoCell.swift */,
 				86D43AD82851AD8E00FB5BD0 /* Music.swift */,
 			);
@@ -272,10 +278,12 @@
 			files = (
 				86D43AA628519EDA00FB5BD0 /* ViewController.swift in Sources */,
 				86D43AAC28519EDA00FB5BD0 /* musicMemo.xcdatamodeld in Sources */,
+				86D43ADB2852ECEC00FB5BD0 /* musicMemoDetail.swift in Sources */,
 				86D43AD92851AD8E00FB5BD0 /* Music.swift in Sources */,
 				86D43AA228519EDA00FB5BD0 /* AppDelegate.swift in Sources */,
 				86D43AA428519EDA00FB5BD0 /* SceneDelegate.swift in Sources */,
 				86D43AD52851AD4900FB5BD0 /* MusicVC.swift in Sources */,
+				86D43ADD28532BE800FB5BD0 /* ReasonCommentCell.swift in Sources */,
 				86D43AD72851AD6D00FB5BD0 /* MusicMemoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

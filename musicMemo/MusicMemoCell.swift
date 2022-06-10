@@ -11,6 +11,7 @@ class MusicMemoCell: UITableViewCell {
     var album: Music! {
         didSet {
             albumNameLabel.text = album.name
+            albumCreatorLabel.text = album.creator
             albumDetailLabel.text = album.detail
             albumImageView.image = UIImage(named: album.pictureName)
         }
@@ -19,7 +20,7 @@ class MusicMemoCell: UITableViewCell {
     @IBOutlet weak var albumNameLabel: UILabel!
     @IBOutlet weak var albumDetailLabel: UILabel!
     @IBOutlet weak var albumImageView: UIImageView!
-    
+    @IBOutlet weak var albumCreatorLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
