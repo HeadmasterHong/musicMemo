@@ -69,13 +69,13 @@
                                                 <constraint firstAttribute="width" constant="100" id="xBI-RW-ErN"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" verticalCompressionResistancePriority="780" text="game name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6FH-Sj-l4Q">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" verticalCompressionResistancePriority="780" text="album name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6FH-Sj-l4Q">
                                             <rect key="frame" x="15" y="21" width="269" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="game detail" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsK-S7-dbY">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="album detail" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsK-S7-dbY">
                                             <rect key="frame" x="15" y="52" width="269" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -96,9 +96,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="gameDetailLabel" destination="hsK-S7-dbY" id="GIS-dN-X1a"/>
-                                    <outlet property="gameImageView" destination="zVh-Ov-CLk" id="cyG-Lg-r33"/>
-                                    <outlet property="gameNameLabel" destination="6FH-Sj-l4Q" id="2CV-Cf-KkJ"/>
+                                    <outlet property="albumDetailLabel" destination="hsK-S7-dbY" id="kLC-gx-d2d"/>
+                                    <outlet property="albumImageView" destination="zVh-Ov-CLk" id="JdH-YN-kqO"/>
+                                    <outlet property="albumNameLabel" destination="6FH-Sj-l4Q" id="ovj-2r-BcV"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
